@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		165A3B651B2853A4002E1D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B641B2853A4002E1D4C /* main.m */; };
 		165A3B681B2853A4002E1D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B671B2853A4002E1D4C /* AppDelegate.m */; };
-		165A3B6B1B2853A4002E1D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B6A1B2853A4002E1D4C /* ViewController.m */; };
 		165A3B6E1B2853A4002E1D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165A3B6C1B2853A4002E1D4C /* Main.storyboard */; };
 		165A3B701B2853A4002E1D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165A3B6F1B2853A4002E1D4C /* Images.xcassets */; };
 		165A3B731B2853A4002E1D4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165A3B711B2853A4002E1D4C /* LaunchScreen.xib */; };
 		165A3B7F1B2853A4002E1D4C /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B7E1B2853A4002E1D4C /* ToDoListTests.m */; };
+		165A3B8A1B2A6BE8002E1D4C /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B891B2A6BE8002E1D4C /* AddToDoItemViewController.m */; };
+		165A3B8D1B2A74B3002E1D4C /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B8C1B2A74B3002E1D4C /* ToDoListTableViewController.m */; };
+		165A3B901B2ED8D2002E1D4C /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 165A3B8F1B2ED8D2002E1D4C /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		165A3B641B2853A4002E1D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		165A3B661B2853A4002E1D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		165A3B671B2853A4002E1D4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		165A3B691B2853A4002E1D4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		165A3B6A1B2853A4002E1D4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		165A3B6D1B2853A4002E1D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		165A3B6F1B2853A4002E1D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		165A3B721B2853A4002E1D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		165A3B781B2853A4002E1D4C /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		165A3B7D1B2853A4002E1D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165A3B7E1B2853A4002E1D4C /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		165A3B881B2A6BE8002E1D4C /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
+		165A3B891B2A6BE8002E1D4C /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
+		165A3B8B1B2A74B3002E1D4C /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = "<group>"; };
+		165A3B8C1B2A74B3002E1D4C /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = "<group>"; };
+		165A3B8E1B2ED8D2002E1D4C /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		165A3B8F1B2ED8D2002E1D4C /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,16 @@
 			children = (
 				165A3B661B2853A4002E1D4C /* AppDelegate.h */,
 				165A3B671B2853A4002E1D4C /* AppDelegate.m */,
-				165A3B691B2853A4002E1D4C /* ViewController.h */,
-				165A3B6A1B2853A4002E1D4C /* ViewController.m */,
 				165A3B6C1B2853A4002E1D4C /* Main.storyboard */,
 				165A3B6F1B2853A4002E1D4C /* Images.xcassets */,
 				165A3B711B2853A4002E1D4C /* LaunchScreen.xib */,
 				165A3B621B2853A4002E1D4C /* Supporting Files */,
+				165A3B881B2A6BE8002E1D4C /* AddToDoItemViewController.h */,
+				165A3B891B2A6BE8002E1D4C /* AddToDoItemViewController.m */,
+				165A3B8B1B2A74B3002E1D4C /* ToDoListTableViewController.h */,
+				165A3B8C1B2A74B3002E1D4C /* ToDoListTableViewController.m */,
+				165A3B8E1B2ED8D2002E1D4C /* ToDoItem.h */,
+				165A3B8F1B2ED8D2002E1D4C /* ToDoItem.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165A3B6B1B2853A4002E1D4C /* ViewController.m in Sources */,
 				165A3B681B2853A4002E1D4C /* AppDelegate.m in Sources */,
+				165A3B901B2ED8D2002E1D4C /* ToDoItem.m in Sources */,
+				165A3B8D1B2A74B3002E1D4C /* ToDoListTableViewController.m in Sources */,
 				165A3B651B2853A4002E1D4C /* main.m in Sources */,
+				165A3B8A1B2A6BE8002E1D4C /* AddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
